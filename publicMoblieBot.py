@@ -17,15 +17,15 @@ def check_text_in_reddit_page(url, text_to_find):
         
         # Check if the specified text is in the page
         if text_to_find in page_text:
-            print(f"The text '{text_to_find}' is present on the page.")
+            print(f"The referral code '{text_to_find}' is on the list.")
         else:
-            print(f"The text '{text_to_find}' is NOT present on the page.")
+            print(f"The referral code '{text_to_find}' is Not on the list. Please send a message to u/pmreferralbot to renew")
     else:
         print(f"Failed to retrieve the page. Status code: {response.status_code}")
 
 # URL of the Reddit page
 url = "https://old.reddit.com/r/PublicMobile/wiki/referrals-nextmonth"
-# reddit username to find on list
+# Public Mobile referral code
 text_to_find = "XXXXXX"
 
 # Loop to check periodically
