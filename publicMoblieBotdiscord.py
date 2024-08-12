@@ -34,9 +34,9 @@ url = "https://old.reddit.com/r/PublicMobile/wiki/referrals-nextmonth"
 # Referral code to find on the list
 text_to_find = "XXXXXX"
 # Your Discord webhook URL
-webhook_url = "https://discord.com/api/webhooks/XXXXXX"
+webhook_url = "https://discord.com/api/webhooks/XXXXXXXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXXXXX/XX-XX/XXXXXXXXXXXXXXXXXX"
 # Your discord user ID
-mention = "<@XXXXXXXXXXXXXX>"  
+mention = "<@XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX>"  
 
 # Loop to check periodically
 while True:
